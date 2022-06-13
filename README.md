@@ -7,7 +7,7 @@ Settings support disable always or disable in combat.
 
 ## Installation
 Install from the foundry install module tab or paste the following link
-[module.json] (https://gitlab.com/tposney/noplayerdrag/raw/master/module.json)
+[module.json](https://gitlab.com/tposney/noplayerdrag/raw/master/module.json)
 
 ## Usage
 Once installed and activated usethe config options to choose the config you want. Reload is not required when changing options.
