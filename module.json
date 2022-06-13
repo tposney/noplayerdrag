@@ -17,6 +17,6 @@
     "styles": [],
     "packs": [],
     "url": "",
-    "manifest": "https://gitlab.com/tposney/noplayerdrag/raw/main/module.json",
-    "download": "https://gitlab.com/tposney/noplayerdrag/raw/main/noplayerdrag.zip"
+    "manifest": "https://github.com/tposney/noplayerdrag/archive/refs/tags/module.json",
+    "download": "https://github.com/tposney/noplayerdrag/archive/refs/tags/v0.1.0.zip"
   }
