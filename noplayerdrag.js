@@ -3,7 +3,7 @@ function myCanDrag(wrapped, ...args) {
 	try {
 		if (
 			!game.user.isGM &&
-			(game.settings.get("noplayerdrag", "disablePlayerDrag") ||
+			((game.settings.get("noplayerdrag", "disablePlayerDrag") && !this.inCombat) ||
 				(game.settings.get("noplayerdrag", "disablePlayerDragCombat") && this.inCombat))
 		)
 			return false;
@@ -21,8 +21,8 @@ Hooks.once("ready", function () {
 
 Hooks.once("init", () => {
 	game.settings.register("noplayerdrag", "disablePlayerDrag", {
-		name: `Disable token drag`,
-		hint: `Non GM players cannot drag tokens and must use WASD/Arrow keys`,
+		name: `Disable token drag outside combat`,
+		hint: `Non GM players cannot drag tokens and must use WASD/Arrow keys outside of combat`,
 		scope: "world",
 		config: true,
 		type: Boolean,
