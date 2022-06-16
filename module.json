@@ -2,7 +2,7 @@
     "name": "noplayerdrag",
     "title": "Disable non GM token drag",
     "description": "Force players to use WASD/Arrow keys to move tokens",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "author": "tposney",
     "minimumCoreVersion": "9",
     "compatibleCoreVersion": "9",
@@ -18,5 +18,5 @@
     "packs": [],
     "url": "",
     "manifest": "https://github.com/tposney/noplayerdrag/raw/main/module.json",
-    "download": "https://github.com/tposney/noplayerdrag/archive/v0.1.0.zip"
+    "download": "https://github.com/tposney/noplayerdrag/archive/v0.2.0.zip"
   }

@@ -3,7 +3,7 @@
 ## Description
 A little module to disable player dragging of tokens forcing them to use the WASD/arrow keys to move a token.
 
-Settings support disable always or disable in combat.
+Settings support disable outside combat or disable in combat or both.
 
 ## Installation
 Install from the foundry install module tab or paste the following link
